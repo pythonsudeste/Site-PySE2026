@@ -6,7 +6,7 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/Site-Python-Sudeste-2026">
+    <BrowserRouter basename="/Site-PySE2026">
       <App />
     </BrowserRouter>
   </StrictMode>,
