@@ -1,0 +1,121 @@
+.ButaoFlutuante {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 10;
+
+    background-color: blue;
+    height: 50px;
+    width: 70px;
+    border-radius: 100%;
+
+    color: aliceblue;
+
+    opacity: 1;
+    transition: all 0.1s ease;
+}
+
+.ButaoFlutuante.invisivel {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.ButaoFlutuante:hover {
+    background-color: aliceblue;
+    color: blue;
+
+    cursor: pointer;
+}
+
+.Modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+
+    position: fixed;
+    left: 73.5%;
+    top: 74%;
+    z-index: 12;
+
+
+    height: 150px;
+    width: 160px;
+    border-radius: 15px;
+    background-color: rgb(247, 251, 255);
+    color: blue;
+
+    opacity: 1;
+    transition: all 1s ease;
+
+    & h6 {
+        font-size: 14px;
+    }
+
+    & button {
+        margin-top: 10px;
+        background-color: blue;
+        color: aliceblue;
+        padding: 2px 4px;
+        border-radius: 3px;
+    }
+
+    & button:hover {
+        cursor: pointer;
+    }
+}
+
+.Modal.invisivel {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.Modal_opçoes.invisivel {
+    display: none;
+}
+
+.Modal_opçoes_linguagem {
+    cursor: pointer;
+}
+
+.Modal_opçoes_linguagem {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+    & h6 {
+        cursor: pointer;
+    }
+
+    & h5 {
+        margin-top: 6px;
+    }
+}
+
+.Modal_opçoes_linguagem.invisivel {
+    display: none;
+}
+
+@media (max-width : 800px) {
+    .ButaoFlutuante {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        z-index: 10;
+        
+        background-color: blue;
+        height: 50px;
+        width: 70px;
+        border-radius: 100%;
+        
+        color: aliceblue;
+        
+        transition: all 1s ease;
+    }
+}
