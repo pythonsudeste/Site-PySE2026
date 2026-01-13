@@ -1,4 +1,4 @@
-import logo from "/logo_pyse_1.PNG"
+import logo from "../../public/logo_pyse_1.png"
 import "./styles/Header.css"
 import { Link } from "react-router-dom"
 
