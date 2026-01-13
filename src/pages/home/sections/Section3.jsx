@@ -1,4 +1,5 @@
 import "../styles/Section3.css"
+import foto_porto from "../../../../public/porto.section3.webp"
 import divisao from "/divisao.svg"
 
 export default function Section3() {
@@ -14,14 +15,19 @@ export default function Section3() {
             <div className="Section3-todas-datas">
                 <div className="Section3-data">
                     <h6>Tutoriais</h6>
-                    <h6>30 de Maio</h6>
+                    <h6>Data a ser defifinida</h6>
                     <p>Os tutoriais são cursos práticos que acontecem no primeiro dia do evento, com duração de 4 horas.</p>
                 </div>
 
                 <div className="Section3-data">
                     <h6>Palestras</h6>
-                    <h6>31 de Maio e 01 de Junho</h6>
+                    <h6>25 e 26 de Julho</h6>
                     <p>As palestras são apresentações de 45 minutos sobre temas variados, desde técnicas avançadas até casos de uso.</p>
+                    <div className="Section3-data-local">
+                        <h6>Local:</h6>
+                        <h6>Porto Maravalley</h6>
+                        <img src={foto_porto} alt="" />
+                    </div>
                 </div>
             </div>
         </div>

@@ -17,10 +17,6 @@ export default function Footer() {
                         <img src={linkedin_logo} alt="Logo Linkedin" />
                         /python-sudeste
                     </a>
-                    <a href="https://www.facebook.com/pythonsudeste/" className='Footer_section1_redes_item' target='_blank'>
-                        <img src={facebook_logo} alt="Logo Facebook" />
-                        /pythonsudeste
-                    </a>
                     <a href="mailto:sudeste@python.org.br" className='Footer_section1_redes_item' target='_blank'>
                         <img src={email_logo} alt="Logo Email" />
                         sudeste@python.org.br
@@ -30,9 +26,9 @@ export default function Footer() {
                     <a href="">Ingressos</a>
                     <a href="">Sobre</a>
                     <a href="">Local</a>
-                    <a href="">Cronogram</a>
+                    <a href="">Cronograma</a>
                     <a href="">Programação</a>
-                    <a href="">Plano de Patrocínio</a>
+                    <a href="https://www.canva.com/design/DAG2zl6Zfu8/coIzW8dNZlTQ1KdbivY3fA/edit" target="_blank">Plano de Patrocínio</a>
                     <a href="">Código de conduta</a>
                 </div>
             </div>
