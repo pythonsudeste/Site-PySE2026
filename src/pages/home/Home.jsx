@@ -21,7 +21,7 @@ export default function Home() {
             <Section7/>
             <Section10/>
             <Section8/>
-            {/* <Section9/> SEÇÃO DOS PATROCINADORES*/}
+            <Section9/>
         </div>
     )
 }
