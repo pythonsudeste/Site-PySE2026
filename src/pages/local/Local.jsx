@@ -2,6 +2,7 @@ import './styles/Local.css'
 import divisao from '/divisao.svg'
 import banner from '../../../public/banner_Section10_home_sobre_o_rio.webp'
 import foto_porto from "../../../public/porto.section3.webp"
+import Mapa from './Mapa'
 
 export default function Local() {
     return (<section className='Local'>
@@ -30,6 +31,8 @@ export default function Local() {
                 <p>E é nos nossos eventos que essa energia ganha corpo, palco e plateia. De meetups a grandes festivais, de workshops técnicos a talks com nomes que estão moldando o futuro, nossos eventos foram pensados para provocar, inspirar e transformar.</p>
             </div>
             <img src={foto_porto} alt="" />
+            <h5>Localização</h5>
+            <Mapa/>
         </div>
     </section>)
 }
