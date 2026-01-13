@@ -11,7 +11,7 @@ export default function section1() {
             <div className="section1-aba-ingressos">
                 <h1>Compre seu ingresso para Python Sudeste</h1>
                 <h2>Primeiro lote da Python Sudeste liberado</h2>
-                <a href="/linkparaoingresso"><button>Compre aqui!</button></a>
+                <a href="/ingressos"><button>Compre aqui!</button></a>
             </div>
         </div>
     )

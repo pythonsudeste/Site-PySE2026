@@ -5,6 +5,7 @@ import Home from "./pages/home/Home"
 import PaginaPalestrantes from "./pages/palestrantes/PaginaPalestrantes"
 import Local from "./pages/local/Local"
 import Carregamento from "./components/Carregamento"
+import Ingressos from "./pages/ingressos/Ingressos"
 import { useEffect, useState } from "react"
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           {/* <Route path="paginapalestrantes" element={<PaginaPalestrantes />} /> */}
           <Route path="local" element={<Local />} />
           <Route path="sobre" element={<Sobre />} />
+          <Route path="ingressos" element={<Ingressos />} />
         </Route>
       </Routes>
   </>);

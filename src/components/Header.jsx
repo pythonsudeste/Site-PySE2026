@@ -7,7 +7,7 @@ export default function Header() {
         <div className="Header">
             <div className="Header-ingresso">
                 <Link to="/"><img src={logo} alt="Logo Python sudeste" /></Link>
-                <Link to="/"><button>Ingressos aqui!</button></Link>
+                <Link to="/ingressos"><button>Ingressos aqui!</button></Link>
             </div>
             <div className="Header-rotas">
                 <Link to="/sobre"><h4>Sobre o Evento</h4></Link>

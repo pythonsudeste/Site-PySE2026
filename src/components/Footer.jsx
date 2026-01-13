@@ -3,6 +3,7 @@ import email_logo from '/contatos/email-logo.png'
 import instagram_logo from '/contatos/instagram-logo.png'
 import linkedin_logo from '/contatos/linkdin-logo.png'
 import facebook_logo from '/contatos/facebook-logo.png'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
     return ( <>
@@ -23,7 +24,7 @@ export default function Footer() {
                     </a>
                 </div>
                 <div className="Footer_section1_rotas">
-                    <a href="">Ingressos</a>
+                    <Link to={"ingressos"}>Ingressos</Link>
                     <a href="">Sobre</a>
                     <a href="">Local</a>
                     <a href="">Cronograma</a>
