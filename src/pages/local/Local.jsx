@@ -1,7 +1,6 @@
 import './styles/Local.css'
 import divisao from '/divisao.svg'
 import banner from '../../../public/banner_Section10_home_sobre_o_rio.webp'
-import foto_porto from "../../../public/porto.section3.webp"
 import Mapa from './Mapa'
 
 export default function Local() {

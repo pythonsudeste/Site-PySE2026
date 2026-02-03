@@ -1,6 +1,7 @@
 import "../styles/Section3.css"
-import foto_porto from "../../../../public/porto.section3.webp"
 import divisao from "/divisao.svg"
+import arca_hub from '/arcahub_local.webp'
+import campus_fiap from '/campus_fiap.png'
 
 export default function Section3() {
     return (
@@ -17,6 +18,11 @@ export default function Section3() {
                     <h6>Tutoriais</h6>
                     <h6>Data a ser defifinida</h6>
                     <p>Os tutoriais são cursos práticos que acontecem no primeiro dia do evento, com duração de 4 horas.</p>
+                    <div className="Section3-data-local">
+                        <h6>Local:</h6>
+                        <h6>Campus da FIAP</h6>
+                        <img src={campus_fiap} alt="" />
+                    </div>
                 </div>
 
                 <div className="Section3-data">
@@ -25,8 +31,8 @@ export default function Section3() {
                     <p>As palestras são apresentações de 45 minutos sobre temas variados, desde técnicas avançadas até casos de uso.</p>
                     <div className="Section3-data-local">
                         <h6>Local:</h6>
-                        <h6>Porto Maravalley</h6>
-                        <img src={foto_porto} alt="" />
+                        <h6>Arca em Ipanema</h6>
+                        <img src={arca_hub} alt="" />
                     </div>
                 </div>
             </div>
