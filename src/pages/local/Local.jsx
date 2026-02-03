@@ -20,18 +20,5 @@ export default function Local() {
             <img src={banner} alt="" />
         </div>
         <img src={divisao} className='Local_divisao' alt='Divisão de seções' />
-        <div className='Local_texto'>
-            <div className='Local_texto_titulo'>
-                <h5>Local das Palestras</h5>
-                <h5>Porto Maravalley</h5>
-            </div>
-            <div className='Local_texto_completo'>
-                <p>O Maravalley é muito mais do que um hub de inovação: é um ponto de encontro entre mentes inquietas, criativas e visionárias. Aqui, tecnologia, arte, ciência, negócios e impacto social caminham lado a lado.</p>
-                <p>E é nos nossos eventos que essa energia ganha corpo, palco e plateia. De meetups a grandes festivais, de workshops técnicos a talks com nomes que estão moldando o futuro, nossos eventos foram pensados para provocar, inspirar e transformar.</p>
-            </div>
-            <img src={foto_porto} alt="" />
-            <h5>Localização</h5>
-            <Mapa/>
-        </div>
     </section>)
 }
