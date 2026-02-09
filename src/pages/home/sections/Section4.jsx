@@ -13,7 +13,7 @@ export default function Section4() {
                     {/* <p>Veja todos os detalhes da programação da Python Sudeste 2026 e não perca nenhuma atividade.</p> */}
                     <p>Submeta agora sua palestra ou tutorial, e contribua com a nossa comunidade.</p>
                     {/* <Link to="/"><button>Acessar Agenda</button></Link> */}
-                    <a href="https://talks.python.org.br/pysul2026/cfp" target='_blank'>
+                    <a href="https://2026.sudeste.python.org.br/" target='_blank'>
                         <button>Clique aqui e envie</button>
                     </a>
                 </div>
