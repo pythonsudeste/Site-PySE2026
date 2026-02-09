@@ -1,7 +1,7 @@
 import "../styles/Section9.css"
 import logo_fiap from "../../../../public/home/section9/fiap.logo.webp"
 import alura_logo from "../../../../public/home/section9/alura.logo.webp"
-import maravalley_logo from "../../../../public/home/section9/maravalley.logo.png"
+import arcaHub from "../../../../public/home/section9/arcaHub.webp"
 
 export default function Section9() {
     return (<>
@@ -14,7 +14,7 @@ export default function Section9() {
             <div className="Section9_patrocinadores">
                 <img src={logo_fiap} alt="" />
                 <img src={alura_logo} alt="" />
-                <img src={maravalley_logo} alt="" />
+                <img src={arcaHub} alt="" />
             </div>
         </div>
     </>)

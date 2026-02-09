@@ -52,7 +52,8 @@
     max-width: 1000px;
 
     & img {
-        width: auto;
+        width: 250px;
         height: 120px;
+        object-fit: contain;
     }
 }

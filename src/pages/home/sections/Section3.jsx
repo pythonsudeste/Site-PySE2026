@@ -31,7 +31,7 @@ export default function Section3() {
                     <p>As palestras são apresentações de 45 minutos sobre temas variados, desde técnicas avançadas até casos de uso.</p>
                     <div className="Section3-data-local">
                         <h6>Local:</h6>
-                        <h6>Arca em Ipanema</h6>
+                        <h6>Arca Hub</h6>
                         <img src={arca_hub} alt="" />
                     </div>
                 </div>
