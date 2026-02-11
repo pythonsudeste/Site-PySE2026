@@ -24,9 +24,9 @@ export default function Footer() {
                     </a>
                 </div>
                 <div className="Footer_section1_rotas">
-                    <Link to={"ingressos"}>Ingressos</Link>
-                    <Link to={"sobre"}>Sobre</Link>
-                    <Link to={"local"}>Local</Link>
+                    <a href="/ingressos">Ingressos</a>
+                    <a href="/sobre">Sobre</a>
+                    <a href="/local">Local</a>
                     <a href="/">Cronograma</a>
                     <a href="/">Programação</a>
                     <a href="https://www.canva.com/design/DAG2zl6Zfu8/CtUL7bmwfTUdvVBhwsZzMQ/view?utlId=hf77ce17366" target="_blank">Plano de Patrocínio</a>
