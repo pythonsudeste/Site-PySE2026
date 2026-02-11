@@ -27,8 +27,8 @@ export default function Footer() {
                     <Link to={"ingressos"}>Ingressos</Link>
                     <a href="/sobre">Sobre</a>
                     <a href="/local">Local</a>
-                    <a href="">Cronograma</a>
-                    <a href="">Programação</a>
+                    <a href="/">Cronograma</a>
+                    <a href="/">Programação</a>
                     <a href="https://www.canva.com/design/DAG2zl6Zfu8/CtUL7bmwfTUdvVBhwsZzMQ/view?utlId=hf77ce17366" target="_blank">Plano de Patrocínio</a>
                     <a href="https://github.com/pythonsudeste/codigo-de-conduta">Código de conduta</a>
                 </div>
