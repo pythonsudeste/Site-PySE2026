@@ -7,6 +7,7 @@ import Local from "./pages/local/Local"
 import Carregamento from "./components/Carregamento"
 import Ingressos from "./pages/ingressos/Ingressos"
 import { useEffect, useState } from "react"
+import Submissao from "./pages/sumissao/Submissao"
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -27,6 +28,7 @@ function App() {
           <Route path="local" element={<Local />} />
           <Route path="sobre" element={<Sobre />} />
           <Route path="ingressos" element={<Ingressos />} />
+          <Route path="submissao" element={<Submissao />} />
         </Route>
       </Routes>
   </>);
