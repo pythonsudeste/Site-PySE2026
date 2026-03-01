@@ -57,7 +57,7 @@ export default function Submissao() {
         </div>
 
         <div className="Submissao-linha4">
-            <a href="https://talks.python.org.br/pyse26/cfp">
+            <a href="https://talks.python.org.br/pyse26/cfp" target="_blank">
                 <button>Enviar Proposta</button>
             </a>
         </div>
