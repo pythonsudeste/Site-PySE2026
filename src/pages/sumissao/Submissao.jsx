@@ -1,6 +1,6 @@
-import calendario_1 from "../../../public/submissao/calendario_1.svg"
-import calendario_2 from "../../../public/submissao/calendario_2.svg"
-import calendario_3 from "../../../public/submissao/calendario_3.svg"
+import calendario_1 from "/submissao/calendario_1.svg"
+import calendario_2 from "/submissao/calendario_2.svg"
+import calendario_3 from "/submissao/calendario_3.svg"
 import "./styles/Submissao.css"
 
 export default function Submissao() {

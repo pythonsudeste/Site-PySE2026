@@ -1,7 +1,7 @@
 import "../styles/Section9.css"
-import logo_fiap from "../../../../public/home/section9/fiap.logo.webp"
-import alura_logo from "../../../../public/home/section9/alura.logo.webp"
-import arcaHub from "../../../../public/home/section9/arcaHub.webp"
+import logo_fiap from "/home/section9/fiap.logo.webp"
+import alura_logo from "/home/section9/alura.logo.webp"
+import arcaHub from "/home/section9/arcaHub.webp"
 
 export default function Section9() {
     return (<>

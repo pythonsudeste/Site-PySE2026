@@ -1,5 +1,5 @@
 import './styles/Carregamento.css'
-import logo from "../../public/logo_pyse_1.png"
+import logo from "/logo_pyse_1.PNG"
 
 export default function Carregamento() {
     return (<>

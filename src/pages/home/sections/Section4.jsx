@@ -1,5 +1,5 @@
 import '../styles/Section4.css'
-import img from "../../../../public/logo_pyse_1.png"
+import img from "/logo_pyse_1.PNG?url"
 import { Link } from 'react-router-dom'
 
 export default function Section4() {
