@@ -9,12 +9,13 @@
     bottom: 20px;
     z-index: 10;
 
-    background-color: blue;
+    background-color: #399ba8;
     height: 50px;
     width: 70px;
-    border-radius: 100%;
+    border-radius: 20px;
 
     color: aliceblue;
+    font-weight: 700;
 
     opacity: 1;
     transition: all 0.1s ease;
@@ -27,7 +28,7 @@
 
 .ButaoFlutuante:hover {
     background-color: aliceblue;
-    color: blue;
+    color: #399ba8;
 
     cursor: pointer;
 }
@@ -40,9 +41,9 @@
     text-align: start;
 
     position: fixed;
-    left: 73.5%;
-    top: 74%;
-    z-index: 12;
+    right: 20px;
+    bottom: 20px;
+    z-index: 10;
 
 
     height: 150px;
@@ -54,15 +55,17 @@
     opacity: 1;
     transition: all 1s ease;
 
-    & h6 {
+    & a {
         font-size: 14px;
+        font-weight: 500;
+        color: rgb(140, 24, 44);
     }
 
     & button {
         margin-top: 10px;
-        background-color: blue;
+        background-color: rgb(140, 24, 44);;
         color: aliceblue;
-        padding: 2px 4px;
+        padding: 2px 6px;
         border-radius: 3px;
     }
 
@@ -109,10 +112,10 @@
         bottom: 20px;
         z-index: 10;
         
-        background-color: blue;
+        background-color: #399ba8;
         height: 50px;
         width: 70px;
-        border-radius: 100%;
+        border-radius: 20px;
         
         color: aliceblue;
         
