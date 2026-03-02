@@ -49,11 +49,11 @@ export default function Submissao() {
                 <h4>Resultados da Seleção</h4>
                 <p>15/05/2026</p>
             </div>
-            <div className="Submissao-linha3-item">
-                <img src={calendario_3} alt="" />
-                <h4>Benefícios</h4>
-                <p>Inscrições gratuitas para palestrantes selecionados e certificado</p>
-            </div>
+            {/* <div className="Submissao-linha3-item"> */}
+                {/* <img src={calendario_3} alt="" /> */}
+                {/* <h4>Benefícios</h4> */}
+                {/* <p>Inscrições gratuitas para palestrantes selecionados e certificado</p> */}
+            {/* </div> */}
         </div>
 
         <div className="Submissao-linha4">
