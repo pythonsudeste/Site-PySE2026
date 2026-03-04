@@ -10,8 +10,8 @@
     z-index: 10;
 
     background-color: #399ba8;
-    height: 50px;
-    width: 70px;
+    height: 60px;
+    width: 100px;
     border-radius: 20px;
 
     color: aliceblue;
@@ -37,7 +37,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: start;
 
     position: fixed;
@@ -46,8 +46,9 @@
     z-index: 10;
 
 
-    height: 150px;
-    width: 160px;
+    height: 220px;
+    width: 180px;
+    padding: 20px 0px;
     border-radius: 15px;
     background-color: rgb(247, 251, 255);
     color: blue;
@@ -56,7 +57,7 @@
     transition: all 1s ease;
 
     & a {
-        font-size: 14px;
+        font-size: 18px;
         font-weight: 500;
         color: rgb(140, 24, 44);
     }
@@ -65,6 +66,9 @@
         margin-top: 10px;
         background-color: rgb(140, 24, 44);;
         color: aliceblue;
+        width: 80%;
+        height: 30px;
+        font-weight: 700;
         padding: 2px 6px;
         border-radius: 3px;
     }
@@ -113,12 +117,14 @@
         z-index: 10;
         
         background-color: #399ba8;
-        height: 50px;
-        width: 70px;
+        height: 60px;
+        width: 120px;
         border-radius: 20px;
         
         color: aliceblue;
         
         transition: all 1s ease;
+
+        font-size: 24px;
     }
 }
