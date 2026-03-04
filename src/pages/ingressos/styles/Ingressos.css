@@ -6,6 +6,7 @@
 
     width: 100%;
     padding: 70px 0px;
+    height: calc(100vh - 350px);
     margin-bottom: -30px;
 
     text-align: center;
