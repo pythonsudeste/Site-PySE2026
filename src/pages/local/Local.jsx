@@ -5,8 +5,8 @@ import arca_hub from '/arcahub_local.webp'
 import campus_fiap from '/campus_fiap.png'
 import Mapa from './Mapa'
 
-const localArcaHub = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1836.546133069776!2d-43.197106709321275!3d-22.983634390080322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd52b34b585bf%3A0xaf5463e43ef0b53e!2sArca%20Hub!5e0!3m2!1spt-BR!2sbr!4v1772595093072!5m2!1spt-BR!2sbr";
-const localCampusFiap = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1544.805144293261!2d-43.18291690327647!3d-22.943356279093916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997ff2ef6ac403%3A0x7abbd08886d18d87!2sPraia%20de%20Botafogo%2C%20300%20-%203%20andar%20-%20Botafogo%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022250-040!5e0!3m2!1spt-BR!2sbr!4v1772595377154!5m2!1spt-BR!2sbr";
+const localArcaHub = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1544.805144293261!2d-43.18291690327647!3d-22.943356279093916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997ff2ef6ac403%3A0x7abbd08886d18d87!2sPraia%20de%20Botafogo%2C%20300%20-%203%20andar%20-%20Botafogo%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022250-040!5e0!3m2!1spt-BR!2sbr!4v1772595377154!5m2!1spt-BR!2sbr";
+const localCampusFiap = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1836.546133069776!2d-43.197106709321275!3d-22.983634390080322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd52b34b585bf%3A0xaf5463e43ef0b53e!2sArca%20Hub!5e0!3m2!1spt-BR!2sbr!4v1772595093072!5m2!1spt-BR!2sbr";
 
 export default function Local() {
     return (<section className='Local'>
