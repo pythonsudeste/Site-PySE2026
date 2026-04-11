@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './styles/ButaoFlutuante.css'
+import { linksTicketSaleSite } from '../Links';
 
 export default function ButaoFlutuante() {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -13,7 +14,7 @@ export default function ButaoFlutuante() {
 
         <div className={`Modal ${!isModalOpen ? "invisivel" : ""}`}>
             <a href="https://2026.sudeste.python.org.br/">Inicio</a>
-            <a href="https://2026.sudeste.python.org.br/ingressos">Ingressos aqui!</a>
+            <a href={linksTicketSaleSite} target="_blank">Ingressos aqui!</a>
             <a href="https://2026.sudeste.python.org.br/submissao">Submeta sua Talk</a>
             <a href="https://2026.sudeste.python.org.br/sobre">Sobre o Evento</a>
             <a href="https://2026.sudeste.python.org.br/local">Local</a>
