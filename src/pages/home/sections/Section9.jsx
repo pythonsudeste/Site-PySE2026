@@ -16,7 +16,7 @@ export default function Section9() {
                 <Patrocinadores logo={logo_fiap} link="https://www.fiap.com.br/" />
                 <Patrocinadores logo={alura_logo} link="https://www.alura.com.br/" />
                 <Patrocinadores logo={arcaHub} link="https://arcahub.com.br/" />
-                <Patrocinadores logo={sambaHoteis} link="https://www.sambahoteis.com.br/" />
+                <Patrocinadores logo={sambaHoteis} link="https://sambahoteis.com/" />
             </div>
         </div>
     </>)
