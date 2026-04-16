@@ -2,6 +2,7 @@ import "../styles/Section9.css"
 import logo_fiap from "/home/section9/fiap.logo.webp"
 import alura_logo from "/home/section9/alura.logo.webp"
 import arcaHub from "/home/section9/arcaHub.webp"
+import sambaHoteis from "/home/section9/sambaHoteis.png"
 
 export default function Section9() {
     return (<>
@@ -12,10 +13,19 @@ export default function Section9() {
             </div>
 
             <div className="Section9_patrocinadores">
-                <img src={logo_fiap} alt="" />
-                <img src={alura_logo} alt="" />
-                <img src={arcaHub} alt="" />
+                <Patrocinadores logo={logo_fiap} link="https://www.fiap.com.br/" />
+                <Patrocinadores logo={alura_logo} link="https://www.alura.com.br/" />
+                <Patrocinadores logo={arcaHub} link="https://arcahub.com.br/" />
+                <Patrocinadores logo={sambaHoteis} link="https://www.sambahoteis.com.br/" />
             </div>
         </div>
     </>)
+}
+
+function Patrocinadores({logo , link = "#"}) {
+    return(
+        <a href={link} target="_blank">
+            <img src={logo} alt="Patrocinador" />
+        </a>
+    )
 }
