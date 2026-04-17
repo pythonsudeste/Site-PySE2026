@@ -1,6 +1,7 @@
 import '../styles/Section4.css'
 import img from "/logo_pyse_1.PNG?url"
 import { Link } from 'react-router-dom'
+import { linksTicketSaleSite } from '../../../Links'
 
 export default function Section4() {
     return (
@@ -11,10 +12,10 @@ export default function Section4() {
                     {/* <h4>Confira a Agenda Completa!</h4> */}
                     <h4>Faça parte da Python Sudeste 2026!</h4>
                     {/* <p>Veja todos os detalhes da programação da Python Sudeste 2026 e não perca nenhuma atividade.</p> */}
-                    <p>Submeta agora sua palestra ou tutorial, e contribua com a nossa comunidade.</p>
+                    <p>Compre agora seu ingresso e garanta a sua participação no nosso evento.</p>
                     {/* <Link to="/"><button>Acessar Agenda</button></Link> */}
-                    <a href="https://2026.sudeste.python.org.br/submissao">
-                        <button>Clique aqui e envie</button>
+                    <a href={linksTicketSaleSite} target="_blank">
+                        <button>Comprar Ingresso</button>
                     </a>
                 </div>
             </div>
