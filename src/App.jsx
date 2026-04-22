@@ -8,6 +8,7 @@ import Carregamento from "./components/Carregamento"
 import Ingressos from "./pages/ingressos/Ingressos"
 import { useEffect, useState } from "react"
 import Submissao from "./pages/sumissao/Submissao"
+import TicketsModal from "./components/TicketsModal"
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -20,6 +21,7 @@ function App() {
 
   return (<>
       {loading && <Carregamento />}
+      <TicketsModal/>
       
       <Routes>
         <Route path="/" element={<Layout />}>
