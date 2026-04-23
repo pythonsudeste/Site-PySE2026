@@ -1,0 +1,1 @@
+import{j as s,l as e}from"./index-CgDmWcKC.js";function n(){return s.jsxs("section",{className:"Ingressos",children:[s.jsx("h3",{children:"Hora de correr!"}),s.jsx("h5",{children:"Os ingressos estão liberados!!!"}),s.jsx("a",{href:e,target:"_blank",children:"Comprar ingressos"})]})}export{n as default};
