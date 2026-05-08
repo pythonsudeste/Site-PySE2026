@@ -38,7 +38,7 @@ function App() {
   }
 
   return (<>
-      <TicketsModal/>
+      {/* <TicketsModal/> */}
       
       <Suspense fallback={<Carregamento />}>
         <Routes>
