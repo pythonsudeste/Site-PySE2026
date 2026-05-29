@@ -11,7 +11,6 @@ export default function Header() {
                 <Link to={linksTicketSaleSite} target="_blank"><button>Ingressos aqui!</button></Link>
             </div>
             <div className="Header-rotas">
-                <Link to="/submissao"><h4>Submeta sua Talk</h4></Link>
                 <Link to="/sobre"><h4>Sobre o Evento</h4></Link>
                 <Link to="/local"><h4>Local</h4></Link>
                 {/* <Link to="/paginapalestrantes"><h4>Programação</h4></Link> */}
