@@ -1,0 +1,1 @@
+import{j as r}from"./index-C-uU9Omw.js";import{S as t}from"./Section2-lTF90FNS.js";function e(){return r.jsxs(r.Fragment,{children:[r.jsx("div",{style:{marginTop:"40px"}}),r.jsx(t,{})]})}export{e as default};
