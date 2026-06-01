@@ -2,6 +2,7 @@ import './styles/Footer.css'
 import email_logo from '/contatos/email-logo.png'
 import instagram_logo from '/contatos/instagram-logo.png'
 import linkedin_logo from '/contatos/linkdin-logo.png'
+import { Link } from "react-router-dom"
 import { linksTicketSaleSite } from '../Links'
 
 export default function Footer() {
@@ -24,10 +25,10 @@ export default function Footer() {
                 </div>
                 <div className="Footer_section1_rotas">
                     <a href={linksTicketSaleSite} target="_blank">Ingressos</a>
-                    <a href="/sobre">Sobre</a>
-                    <a href="/local">Local</a>
-                    <a href="/">Cronograma</a>
-                    <a href="/">Programação</a>
+                    <Link to="/sobre"><h4>Sobre</h4></Link>
+                    <Link to="/local"><h4>Local</h4></Link>
+                    <Link to="/cronograma"><h4>Cronograma</h4></Link>
+                    <Link to="/programacao"><h4>Programação</h4></Link>
                     <a href="https://www.canva.com/design/DAG2zl6Zfu8/CtUL7bmwfTUdvVBhwsZzMQ/view?utlId=hf77ce17366" target="_blank">Plano de Patrocínio</a>
                     <a href="https://github.com/pythonsudeste/codigo-de-conduta">Código de conduta</a>
                 </div>
