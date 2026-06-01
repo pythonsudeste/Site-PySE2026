@@ -25,10 +25,10 @@ export default function Footer() {
                 </div>
                 <div className="Footer_section1_rotas">
                     <a href={linksTicketSaleSite} target="_blank">Ingressos</a>
-                    <Link to="/sobre"><h4>Sobre</h4></Link>
-                    <Link to="/local"><h4>Local</h4></Link>
-                    <Link to="/cronograma"><h4>Cronograma</h4></Link>
-                    <Link to="/programacao"><h4>Programação</h4></Link>
+                    <LinksFooter link="/sobre" text="Sobre" />
+                    <LinksFooter link="/local" text="Local" />
+                    <LinksFooter link="/cronograma" text="Cronograma" />
+                    <LinksFooter link="/programacao" text="Programação" />
                     <a href="https://www.canva.com/design/DAG2zl6Zfu8/CtUL7bmwfTUdvVBhwsZzMQ/view?utlId=hf77ce17366" target="_blank">Plano de Patrocínio</a>
                     <a href="https://github.com/pythonsudeste/codigo-de-conduta">Código de conduta</a>
                 </div>
@@ -39,4 +39,8 @@ export default function Footer() {
             </div>
         </div>
     </> )
+}
+
+const LinksFooter = ({link, text}) => {
+    return <Link to={link}><h4>{text}</h4></Link>
 }

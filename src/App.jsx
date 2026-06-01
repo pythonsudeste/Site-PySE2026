@@ -6,6 +6,7 @@ import PaginaPalestrantes from "./pages/palestrantes/PaginaPalestrantes"
 import Carregamento from "./components/Carregamento"
 import TicketsModal from "./components/TicketsModal"
 import React from "react"
+import ScrollToTop from "./components/ScrollToTop";
 
 const Local = React.lazy(() => import("./pages/local/Local"));
 const Sobre = React.lazy(() => import("./pages/sobre/Sobre"));
@@ -37,22 +38,25 @@ function App() {
     return <Carregamento />
   }
 
-  return (<>
-      {/* <TicketsModal/> */}
-      
-      <Suspense fallback={<Carregamento />}>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
-            {/* <Route path="paginapalestrantes" element={<PaginaPalestrantes />} /> */}
-            <Route path="local" element={<Local />} />
-            <Route path="sobre" element={<Sobre />} />
-            <Route path="ingressos" element={<Ingressos />} />
-            <Route path="submissao" element={<Submissao />} />
-          </Route>
-        </Routes>
-      </Suspense>
-  </>);
+  return (
+    <>
+        <ScrollToTop />
+        {/* <TicketsModal/> */}
+
+        <Suspense fallback={<Carregamento />}>
+          <Routes>
+            <Route path="/" element={<Layout />}>
+              <Route index element={<Home />} />
+              {/* <Route path="paginapalestrantes" element={<PaginaPalestrantes />} /> */}
+              <Route path="local" element={<Local />} />
+              <Route path="sobre" element={<Sobre />} />
+              <Route path="ingressos" element={<Ingressos />} />
+              <Route path="submissao" element={<Submissao />} />
+            </Route>
+          </Routes>
+        </Suspense>
+    </>
+  );
 }
 
 export default App

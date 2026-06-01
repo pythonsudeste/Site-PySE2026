@@ -58,6 +58,11 @@
     & a {
         color: aliceblue;
     }
+
+    & h4 {
+        font-size: 16px;
+        font-weight: 400;
+    }
 }
 
 .Footer_section2 {
