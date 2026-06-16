@@ -45,14 +45,6 @@ export default function Local() {
                 <Mapa local={localCampusFiap}/>
             </div>
         </div>
-        <a href="https://www.sambahoteis.com/" target="_blank" rel="noopener noreferrer">
-            <div className='Local-rodape'>
-                <h3>Hospede-se Aqui</h3>
-                <h4>Samba-rio</h4>
-                <img src={sambaHoteis} alt="Samba-rio" />
-                <p>Use o cupom PYTHON10 para conseguir 10% de desconto</p>
-            </div>
-        </a>
     </section>
     )
 }
