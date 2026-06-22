@@ -1,7 +1,6 @@
 import "../styles/Section9.css"
 import logo_fiap from "/home/section9/fiap.logo.webp"
 import alura_logo from "/home/section9/alura.logo.webp"
-import arcaHub from "/home/section9/arcaHub.webp"
 
 export default function Section9() {
     return (<>
@@ -13,7 +12,6 @@ export default function Section9() {
 
             <div className="Section9_patrocinadores">
                 <Patrocinadores logo={logo_fiap} link="https://www.fiap.com.br/" />
-                <Patrocinadores logo={alura_logo} link="https://www.alura.com.br/" />
             </div>
         </div>
     </>)
