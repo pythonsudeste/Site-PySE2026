@@ -14,7 +14,6 @@ export default function Section9() {
             <div className="Section9_patrocinadores">
                 <Patrocinadores logo={logo_fiap} link="https://www.fiap.com.br/" />
                 <Patrocinadores logo={alura_logo} link="https://www.alura.com.br/" />
-                <Patrocinadores logo={arcaHub} link="https://arcahub.com.br/" />
             </div>
         </div>
     </>)
