@@ -29,19 +29,11 @@ export default function Local() {
         <div className='Local-enderecos'>
             <div className='Local-enderecos-itens'>
                 <div className='Local-enderecos-itens-textos'>
-                    <h3>Tutoriais</h3>
+                    <h3>Tutoriais e Palestras</h3>
                     <h4>Local: Campus da FIAP</h4>
                 </div>
                 <img src={campus_fiap} alt="" />
                 <Mapa local={localArcaHub}/>
-            </div>
-            <div className='Local-enderecos-itens'>
-                <div className='Local-enderecos-itens-textos'>
-                    <h3>Palestras</h3>
-                    <h4>Local: Arca Hub</h4>
-                </div>
-                <img src={arca_hub} alt="" />
-                <Mapa local={localCampusFiap}/>
             </div>
         </div>
     </section>
