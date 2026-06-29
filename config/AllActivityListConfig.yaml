@@ -44,7 +44,7 @@ ActivityList:
     data: 25 de julho
     hour: 09:35
     type: talk
-    title: Do PDF ao dado estruturado com o Querido Diário 
+    title: "Do PDF ao dado estruturado com o Querido Diário"
     description: >-
       O Querido Diário, baseada na stack python, django, scrapy, opensearch e apache tika, vem se consolidando como uma ferramenta de resistência e transparência. Em milhares de cidades brasileiras, atos públicos essenciais como os Diários Oficiais são "escondidos" em PDFs de difícil acesso, impedindo que a sociedade fiscalize como o dinheiro público é investido.
       Nesta palestra, demonstraremos como a comunidade Python brasileira está mudando essa realidade através da união entre tecnologia e cidadania. Nosso foco será mostrar como o Processamento de Linguagem Natural (NLP) e a estruturação de dados permitem que jornalistas, pesquisadores e cidadãos identifiquem monitorem gastos, acompanhem nomeações e atuem sobre os rumos de políticas e debate públicos.

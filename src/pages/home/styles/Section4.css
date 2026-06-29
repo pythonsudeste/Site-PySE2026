@@ -3,13 +3,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 30px;
 
     width: 100%;
     margin-top: 18px;
     margin-bottom: 40px;
 }
 
-.Section4-itens {
+.Section4-itens-1,
+.Section4-itens-2 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -27,7 +29,13 @@
     }
 }
 
-.Section4-itens-texto {
+.Section4-itens-2 {
+    flex-direction: row-reverse;
+    background-color: #3798a1;
+}
+
+.Section4-itens-texto-1,
+.Section4-itens-texto-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,11 +80,24 @@
     }
 }
 
+.Section4-itens-texto-2 {
+    & button {
+        background-color: #830425;
+    }
+}
+
 @media (max-width : 800px) {
-    .Section4-itens {
+    .Section4-itens-1,
+    .Section4-itens-2 {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    .Section4-itens-2 {
+        & img {
+            display: none;
+        }
     }
 }

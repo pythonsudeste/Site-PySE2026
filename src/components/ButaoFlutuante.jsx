@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './styles/ButaoFlutuante.css'
 import { linksTicketSaleSite } from '../Links';
+import { Link } from 'react-router-dom'
 
 export default function ButaoFlutuante() {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -13,11 +14,12 @@ export default function ButaoFlutuante() {
         </div>
 
         <div className={`Modal ${!isModalOpen ? "invisivel" : ""}`}>
-            <a href="https://2026.sudeste.python.org.br/">Inicio</a>
+            <Link to="/">Inicio</Link>
             <a href={linksTicketSaleSite} target="_blank">Ingressos aqui!</a>
-            <a href="https://2026.sudeste.python.org.br/submissao">Submeta sua Talk</a>
-            <a href="https://2026.sudeste.python.org.br/sobre">Sobre o Evento</a>
-            <a href="https://2026.sudeste.python.org.br/local">Local</a>
+            {/* <Link to="/submissao">Submeta sua Talk</Link> */}
+            <Link to="/programation-panel">Programação</Link>
+            <Link to="/sobre">Sobre o Evento</Link>
+            <Link to="/local">Local</Link>
             <button onClick={closeModal}>Fechar</button>
         </div>
     </>)
