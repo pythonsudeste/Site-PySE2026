@@ -1,6 +1,5 @@
 import '../styles/Section5.css'
 import KeyNoteCard from '../../../components/KeyNoteCard'
-import { keyNotesList } from './KeyNotesList'
 
 export default function Section5() {
     return (

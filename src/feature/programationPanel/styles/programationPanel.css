@@ -1,0 +1,65 @@
+.ProgramationPanel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100vh;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.ProgramationPanel-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    min-height: 100vh;
+    width: 90%;
+    max-width: 1000px;
+    border: 2px red solid;
+}
+
+.ProgramationPanel-Container-datas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.ProgramationPanel-Container-datas-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    & button {
+        background-color: #8c182c;
+        border-radius: 20px;
+        padding: 5px 20px;
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: aliceblue;
+    }
+}
+
+.ProgramationPanel-talktutorial-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    & img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 100%;
+    }
+}

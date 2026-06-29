@@ -7,6 +7,7 @@ import Carregamento from "./components/Carregamento"
 import TicketsModal from "./components/TicketsModal"
 import React from "react"
 import ScrollToTop from "./components/ScrollToTop";
+import { ProgramationPanel } from "./feature/programationPanel/ProgramationPanel";
 
 const Local = React.lazy(() => import("./pages/local/Local"));
 const Sobre = React.lazy(() => import("./pages/sobre/Sobre"));
@@ -52,6 +53,7 @@ function App() {
               <Route path="sobre" element={<Sobre />} />
               <Route path="ingressos" element={<Ingressos />} />
               <Route path="submissao" element={<Submissao />} />
+              <Route path="programation-panel" element={<ProgramationPanel />} />
             </Route>
           </Routes>
         </Suspense>

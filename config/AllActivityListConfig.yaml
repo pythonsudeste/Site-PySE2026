@@ -4,14 +4,14 @@ ActivityList:
     data: 24 de julho
     hour: 08:30
     type: tutorial
-    title: Hello, Python: Conceitos Iniciais da Linguagem com as ODS
+    title: "Hello, Python: Conceitos Iniciais da Linguagem com as ODS"
     description: >-
       Este tutorial apresenta os conceitos iniciais da linguagem Python utilizando os Objetivos de Desenvolvimento Sustentável (ODS) como exemplos práticos e reflexivos. A proposta combina atividades desplugadas e práticas digitais para tornar o aprendizado acessível e significativo.Atividade desplugada: cada ODS será representada em caixas físicas, onde os participantes poderão guardar informações e relacionar os conceitos às estruturas básicas da programação (como variáveis).
       Exploração de conceitos: demonstração de como combinar duas ou mais ODS em projetos, reforçando a ideia de colaboração e impacto positivo.
       Prática digital: introdução à sintaxe básica de Python em uma plataforma gratuita, permitindo que os participantes visualizem a compilação de seus primeiros códigos.
       O intuito é atrair iniciantes e, ao mesmo tempo, convidar programadores experientes e educadores a refletirem sobre a linguagem sob uma perspectiva interdisciplinar e socialmente engajada.
     speaker:
-      - name: ROMÊNIA NORIKO ISHIYAMA
+      - name: Romênia Noriko Ishiyama
         avatar: https://talks.python.org.br/media/avatars/W3VYKE_SsHzdfd.png
         biography: >-
           Desenvolvedora frontEnd formada pela Reprograma. Analista de projetos pedagógicos em Tecnologia. Coordenadora de Comunicação e Marketing da ONG Fly Educação.
@@ -25,7 +25,7 @@ ActivityList:
     data: 24 de julho
     hour: 14:30
     type: tutorial
-    title: Django ORM: indo além do objeto-relacional
+    title: "Django ORM: indo além do objeto-relacional"
     description: >-
       Utilizar recursos como ferramentas Objeto-Relacional permite que desenvolvedores façam consultas complexas e não triviais sem precisar conhecer profundamente a linguagem SQL ou o dialeto de um banco de dados relacional. Porém, quando não damos a atenção devida às relações e consultas que estamos gerando, podemos gerar sobrecarga no banco ou trafegar/utilizar informações desnecessárias.
       Entendendo o que queremos fazer e como faríamos isso com a linguagem SQL nos permite gerar melhores consultas através do Django ORM. Isso nos permite não só melhorar nosso programa, como nos dá a possibilidade de enriquecer o conhecimento em bancos relacionais e SQL.
@@ -41,7 +41,7 @@ ActivityList:
     title: Coffee-break
   - id: 3
     local: Auditorio 1
-    date: 25 de julho
+    data: 25 de julho
     hour: 09:35
     type: talk
     title: Do PDF ao dado estruturado com o Querido Diário 
@@ -54,7 +54,7 @@ ActivityList:
         biography: >-
           Haydée Svab lidera a Open Knowledge Brasil e o projeto Querido Diário. Engenheira e mestre (USP), une ciência de dados e cidadania para gerar impacto social e transparência democrática no país.
       - name: Diego Rabatone
-        avatar: ""
+        avatar: "https://talks.python.org.br/media/avatars/WFSYCQ_xUTQ6zO.jpeg"
         biography: >-
           ""
   - id: 4
@@ -94,7 +94,7 @@ ActivityList:
     data: 25 de julho
     hour: 10:25
     type: talk
-    title: Busca 3.0: Anatomia de um Agente de Busca na era da IA 
+    title: "Busca 3.0: Anatomia de um Agente de Busca na era da IA"
     description: >-
       Busca 1.0 foi keywords. Busca 2.0 foi semântica. Busca 3.0 é o agente que raciocina antes de executar.
       Esta palestra disseca a anatomia de um agente de busca moderno: como ele percebe o contexto, decide se uma consulta é necessária, escolha o melhor índice, formula a query certa e sintetiza a resposta — tudo de forma autônoma.
@@ -109,7 +109,7 @@ ActivityList:
     data: 25 de julho
     hour: 11:15
     type: talk
-    title: Do clima ao vetor: modelando a presença de mosquitos com Py 
+    title: "Do clima ao vetor: modelando a presença de mosquitos com Py"
     description: >-
       Integrando dados de coleta e clima para prever presença de mosquitos com Python: um estudo aplicado de Machine Learning, explorando dados ambientais e suas implicações para a saúde pública.
     speaker:
@@ -122,7 +122,7 @@ ActivityList:
     data: 25 de julho
     hour: 11:15
     type: talk
-    title: Antes do Badge: Uma Jornada Rumo às Certificações de TI 
+    title: "Antes do Badge: Uma Jornada Rumo às Certificações de TI"
     description: >-
       O início da nossa jornada pessoal rumo a uma certificação técnica de TI (AWS, Microsoft, Databricks, etc.) costuma ser um terreno bastante arenoso. Vemos as fotos dos badges no LinkedIn, mas raramente nos mostram os bastidores: as madrugadas de estudo, os simulados com notas frustrantes e a velha conhecida síndrome do impostor batendo na porta. Quando a visão fica turva e nebuloso no meio desse processo, é muito fácil desanimarmos, procrastinarmos e eventualmente desistirmos.
       Nesta palestra, vamos deixar as fórmulas mágicas e as idealizações de lado para falar do "mundo real" e mapear o caminho das pedras para a sua próxima aprovação. Utilizando lições práticas extraídas do "campo de batalha" de certificações de Data e Cloud (ex. Datacamp DS Professional, Azure AI-900 e AWS ML Engineer Associate), o conteúdo é focado em entregar estratégias táticas para a sua rotina de estudos respaldadas na materialidade.
@@ -184,7 +184,7 @@ ActivityList:
     data: 25 de julho
     hour: 14:50
     type: talk
-    title: Python, Web e IA: A Stack Dev do Futuro (Que Começa Hoje)
+    title: "Python, Web e IA: A Stack Dev do Futuro (Que Começa Hoje)"
     description: >-
       Ferramentas de IA já estão redesenhando o que significa ser um Dev Python. Nessa palestra, vamos além do hype. Com projeções reais de mercado e aplicações Python concretas, você vai entender para onde a carreira do programador Python está caminhando.
       Apresentarei uma integração real entre projetos de dados (coleta, transformação e carga), integração com LLMs, engenharia de prompt, automação inteligente, backends modernos com FastAPI e visualização prática de dados — um retrato fiel do que o mercado já exige dos programadores Python.
@@ -214,7 +214,7 @@ ActivityList:
     data: 26 de julho
     hour: 10:00
     type: talk
-    title: Python Supply Chain Security: O risco invisível do PyPI
+    title: "Python Supply Chain Security: O risco invisível do PyPI"
     description: >-
       Nesta palestra, vamos entender como as dependências se tornaram um vetor relevante de ataques reais à supply chain. Também discutiremos como o ecossistema Python está evoluindo para mitigar esses riscos, incluindo mecanismos como Trusted Publishing e outras práticas emergentes na segurança.
       O objetivo é ajudar desenvolvedores a enxergar riscos invisíveis no dia a dia e adotar práticas mais seguras no uso de dependências.
@@ -256,7 +256,7 @@ ActivityList:
     data: 26 de julho
     hour: 10:50
     type: talk
-    title: Side project: um assistente de saúde privacy-first
+    title: "Side project: um assistente de saúde privacy-first"
     description: >-
       sabe aquele projetinho que surge de um incômodo seu, que vai ganhando forma e você decide levar a sério? o meu é um assistente de anamnese com IA focado em privacidade, que ajuda pacientes a se organizarem antes de uma consulta médica.
       nesta atividade, quero compartilhar a evolução do projeto: como e por que implementei uma arquitetura "zero-persistence" usando FastAPI no backend e Reflex (frontend 100% Python), e até geração dinâmica de PDFs em memória. mas a brincadeira não para no código: vou mostrar como foi tirar da máquina local, fazer o deploy serverless no Cloud Run e tentar melhorar a partir de feedback de usuários.
@@ -276,7 +276,7 @@ ActivityList:
     data: 26 de julho
     hour: 14:00
     type: talk
-    title: Se a cabeça não usa, atrofia: LLMs e a ilusão do saber
+    title: "Se a cabeça não usa, atrofia: LLMs e a ilusão do saber"
     description: >-
       Modelos de linguagem passaram rapidamente a fazer parte do cotidiano de quem programa. Eles ajudam a gerar código, explicar conceitos e explorar ideias. No entanto, junto com essa facilidade surgiu um risco sutil: a sensação de que estamos entendendo mais do que realmente entendemos.
       Quando uma LLM produz uma resposta convincente ou um trecho de código aparentemente correto, é fácil assumir que o problema foi compreendido. Mas muitas vezes o entendimento permanece superficial. Surge então uma nova forma de ilusão de produtividade e aprendizado: muito texto, muito código e pouca reflexão real.
@@ -294,7 +294,7 @@ ActivityList:
     data: 26 de julho
     hour: 14:00
     type: talk
-    title: Python além da TI: formando o servidor do futuro no governo
+    title: "Python além da TI: formando o servidor do futuro no governo"
     description: >-
       A comunidade Python costuma discutir frameworks, performance, IA, DevOps e automação. Mas há uma pergunta anterior a tudo isso:
       Como fazer Python chegar a quem nunca se imaginou programando?
