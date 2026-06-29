@@ -14,19 +14,23 @@ export const SpeakerPage = () => {
     console.log(speaker.speaker)
     return (
         <section className="SpeakerPage">
-            <h2>{speaker.title}</h2>
-            <h4>{speaker.type}</h4>
-            <p>{speaker.description}</p>
-            {speaker.speaker.map((speaker) => (
-                <div>
-                    <img 
-                        src={speaker.avatar}
-                        alt={`Foto de ${speaker.name}`}
-                    />
-                    <h3>{speaker.name}</h3>
-                    <p>{speaker.biography}</p>
+            <div className="SpeakerPage-container">
+                <div className="SpeakerPage-container-talk">
+                    <h2>{speaker.title}</h2>
+                    <h4>{speaker.type === "talk" ? "Palestra" : speaker.type}</h4>
+                    <p>{speaker.description}</p>
                 </div>
-            ))}
+                {speaker.speaker.map((speaker) => (
+                    <div className="SpeakerPage-container-speaker">
+                        <img 
+                            src={speaker.avatar}
+                            alt={`Foto de ${speaker.name}`}
+                        />
+                        <h3>{speaker.name}</h3>
+                        <p>{speaker.biography}</p>
+                    </div>
+                ))}
+            </div>
         </section>
     )
 }

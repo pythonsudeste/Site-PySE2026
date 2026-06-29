@@ -5,11 +5,7 @@ ActivityList:
     hour: 08:30
     type: tutorial
     title: "Hello, Python: Conceitos Iniciais da Linguagem com as ODS"
-    description: >-
-      Este tutorial apresenta os conceitos iniciais da linguagem Python utilizando os Objetivos de Desenvolvimento Sustentável (ODS) como exemplos práticos e reflexivos. A proposta combina atividades desplugadas e práticas digitais para tornar o aprendizado acessível e significativo.Atividade desplugada: cada ODS será representada em caixas físicas, onde os participantes poderão guardar informações e relacionar os conceitos às estruturas básicas da programação (como variáveis).
-      Exploração de conceitos: demonstração de como combinar duas ou mais ODS em projetos, reforçando a ideia de colaboração e impacto positivo.
-      Prática digital: introdução à sintaxe básica de Python em uma plataforma gratuita, permitindo que os participantes visualizem a compilação de seus primeiros códigos.
-      O intuito é atrair iniciantes e, ao mesmo tempo, convidar programadores experientes e educadores a refletirem sobre a linguagem sob uma perspectiva interdisciplinar e socialmente engajada.
+    description: "Este tutorial apresenta os conceitos iniciais da linguagem Python utilizando os Objetivos de Desenvolvimento Sustentável (ODS) como exemplos práticos e reflexivos. A proposta combina atividades desplugadas e práticas digitais para tornar o aprendizado acessível e significativo.Atividade desplugada: cada ODS será representada em caixas físicas, onde os participantes poderão guardar informações e relacionar os conceitos às estruturas básicas da programação (como variáveis).\n\nExploração de conceitos: demonstração de como combinar duas ou mais ODS em projetos, reforçando a ideia de colaboração e impacto positivo.\n\nPrática digital: introdução à sintaxe básica de Python em uma plataforma gratuita, permitindo que os participantes visualizem a compilação de seus primeiros códigos.\n\nO intuito é atrair iniciantes e, ao mesmo tempo, convidar programadores experientes e educadores a refletirem sobre a linguagem sob uma perspectiva interdisciplinar e socialmente engajada."
     speaker:
       - name: Romênia Noriko Ishiyama
         avatar: https://talks.python.org.br/media/avatars/W3VYKE_SsHzdfd.png
