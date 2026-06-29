@@ -1,6 +1,5 @@
 import "../styles/Section9.css"
 import logo_fiap from "/home/section9/fiap.logo.webp"
-import alura_logo from "/home/section9/alura.logo.webp"
 
 export default function Section9() {
     return (<>
