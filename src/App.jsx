@@ -8,6 +8,7 @@ import TicketsModal from "./components/TicketsModal"
 import React from "react"
 import ScrollToTop from "./components/ScrollToTop";
 import { ProgramationPanel } from "./feature/programationPanel/ProgramationPanel";
+import { SpeakerPage } from "./feature/speakerPage/SpeakerPage";
 
 const Local = React.lazy(() => import("./pages/local/Local"));
 const Sobre = React.lazy(() => import("./pages/sobre/Sobre"));
@@ -48,7 +49,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Layout />}>
               <Route index element={<Home />} />
-              {/* <Route path="paginapalestrantes" element={<PaginaPalestrantes />} /> */}
+              <Route path="palestra/:id" element={<SpeakerPage />} />
               <Route path="local" element={<Local />} />
               <Route path="sobre" element={<Sobre />} />
               <Route path="ingressos" element={<Ingressos />} />

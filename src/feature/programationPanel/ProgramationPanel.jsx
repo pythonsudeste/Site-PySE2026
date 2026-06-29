@@ -2,6 +2,7 @@ import AllActivityListConfig from "../../../config/AllActivityListConfig.yaml?ra
 import { parse } from "yaml"; 
 import "./styles/programationPanel.css";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const AllActivityList = parse(AllActivityListConfig);
 const AllActivity = AllActivityList.ActivityList;
@@ -37,7 +38,11 @@ export const ProgramationPanel = () => {
                             )
                             :
                             activity.type === "talk" || "tutorial" ? (
-                                <div key={activity.id} className="ProgramationPanel-talktutorial-card">
+                                <Link 
+                                    key={activity.id}
+                                    className="ProgramationPanel-talktutorial-card"
+                                    to={`/palestra/${activity.id}`}
+                                >
                                     <div key={activity.id} className="ProgramationPanel-talktutorial-card-content">
                                         <div className="ProgramationPanel-talktutorial-card-hour">
                                             <h3>{activity.hour}</h3>
@@ -56,7 +61,7 @@ export const ProgramationPanel = () => {
                                             ))}
                                         </div>
                                     </div>
-                                </div>
+                                </Link>
                             )
                             :
                             null
