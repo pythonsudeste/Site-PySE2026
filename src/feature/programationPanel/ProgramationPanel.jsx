@@ -17,12 +17,19 @@ export const ProgramationPanel = () => {
                     <h3>Selecione a data para ver a programação do dia:</h3>
                     <div className="ProgramationPanel-Container-datas-item">
                         {datas.map((data) => (
+                            <div 
+                                className={data == selectedDate ?
+                                    `ProgramationPanel-Container-datas-item-button-selected`
+                                    : ""
+                                }
+                            >
                                 <button
                                     onClick={() => setSelectedDate(data)}
                                     key={data}
                                 >
                                     {data}
                                 </button>
+                            </div>
                         ))}
                     </div>
                 </div>

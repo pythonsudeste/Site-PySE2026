@@ -45,6 +45,13 @@
         font-size: 1.6rem;
         font-weight: 700;
         color: aliceblue;
+        transition: 0.3s linear background-color;
+    }
+}
+
+.ProgramationPanel-Container-datas-item-button-selected {
+    & button {
+        background-color: #399ba8;
     }
 }
 
