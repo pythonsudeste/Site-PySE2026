@@ -13,7 +13,6 @@ export default function KeynoteCard ({img = "https://png.pngtree.com/png-vector/
     linkdinLink = null,
     linkdinArroba = null,
 }) {
-    console.log(img)
     return (
         <div className="keynote">
             <div className='keynote-primeira-linha'>

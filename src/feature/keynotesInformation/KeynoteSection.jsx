@@ -6,7 +6,6 @@ import { parse } from "yaml";
 const keynotesList = parse(allKeynotesList).keyNotesList;
 
 export default function KeynoteSection () {
-    console.log(keynotesList);
     return (
         <div className="KeynoteSection">
             <div className="KeynoteSection-aba">

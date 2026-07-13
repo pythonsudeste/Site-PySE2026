@@ -8,10 +8,8 @@ const AllActivity = AllActivityList.ActivityList;
 
 export const SpeakerPage = () => {
     const { id } = useParams();
-    console.log(id);
 
     const speaker = AllActivity.filter(activity => activity.id == id)[0];
-    console.log(speaker.speaker)
     return (
         <section className="SpeakerPage">
             <div className="SpeakerPage-container">
