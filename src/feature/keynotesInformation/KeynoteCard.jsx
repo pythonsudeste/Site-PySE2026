@@ -1,18 +1,19 @@
 import './styles/KeyNoteCard.css'
-import ig from './assets/KeyNoteCard/ig.png'
-import linkedin from './assets/KeyNoteCard/linkedin.png'
-import git from './assets/KeyNoteCard/github.png'
+import ig from './assets/ig.png'
+import linkedin from './assets/linkedin.png'
+import git from './assets/github.png'
 
-export default function KeyNoteCard({img = "https://png.pngtree.com/png-vector/20240313/ourlarge/pngtree-cute-cat-laughing-happily-png-image_11942584.png",
+export default function KeynoteCard ({img = "https://png.pngtree.com/png-vector/20240313/ourlarge/pngtree-cute-cat-laughing-happily-png-image_11942584.png",
     nome = 'inserir nome do palestrante',
     descricao = 'inserir descrição do palestrante',
-    githubLink = 'inserir link de github do palestrante',
-    githubArroba = 'inserir Arroba de github do palestrante',
-    instagramLink = 'inserir link de instagram do palestrante',
-    instagramArroba = 'inserir Arroba de instagram do palestrante',
-    linkdinLink = 'inserir link de linkdin do palestrante',
-    linkdinArroba = 'inserir Arroba de linkdin do palestrante',
+    githubLink = null,
+    githubArroba = null,
+    instagramLink = null,
+    instagramArroba = null,
+    linkdinLink = null,
+    linkdinArroba = null,
 }) {
+    console.log(img)
     return (
         <div className="keynote">
             <div className='keynote-primeira-linha'>
@@ -23,7 +24,7 @@ export default function KeyNoteCard({img = "https://png.pngtree.com/png-vector/2
                 </div>
             </div>
             <div className='keynote-segunda-linha'>
-                {githubLink !== "inserir link de github do palestrante" && (
+                {githubLink !== null && (
                     <div className='keynote-segunda-linha-item'>
                         <a href={githubLink}>
                             <img src={git} alt="" />
@@ -31,7 +32,7 @@ export default function KeyNoteCard({img = "https://png.pngtree.com/png-vector/2
                         </a>
                     </div>
                 )}
-                {instagramLink !== "inserir link de instagram do palestrante" && (
+                {instagramLink !== null && (
                     <div className='keynote-segunda-linha-item'>
                         <a href={instagramLink}>
                             <img src={ig} alt="" />
@@ -39,7 +40,7 @@ export default function KeyNoteCard({img = "https://png.pngtree.com/png-vector/2
                         </a>
                     </div>
                 )}
-                {linkdinLink !== "inserir link de linkdin do palestrante" && (
+                {linkdinLink !== null && (
                     <div className='keynote-segunda-linha-item'>
                         <a href={linkdinLink}>
                             <img src={linkedin} alt="" />

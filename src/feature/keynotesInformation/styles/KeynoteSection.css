@@ -1,4 +1,4 @@
-.Section5 {
+.KeynoteSection {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,7 +8,7 @@
     margin-bottom: 30px;
 }
 
-.Section5-aba {
+.KeynoteSection-aba {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +28,7 @@
     }
 }
 
-.Section5-keynotescards {
+.KeynoteSection-keynotescards {
     display: flex;
     flex-direction: column;
     align-items: center;

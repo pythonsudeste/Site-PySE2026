@@ -38,7 +38,7 @@
     margin-top: 20px;
 
     text-align: start;
-    
+    white-space: pre-line;
 
     & h4 {
         font-size: 20px;

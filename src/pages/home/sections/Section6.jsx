@@ -1,5 +1,4 @@
 import '../styles/Section6.css'
-import KeyNoteCard from '../../../components/KeyNoteCard'
 
 export default function Section6() {
     return (

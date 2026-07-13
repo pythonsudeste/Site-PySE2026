@@ -1,15 +1,20 @@
-import '../styles/Section5.css'
-import KeyNoteCard from '../../../components/KeyNoteCard'
+import './styles/KeynoteSection.css'
+import KeyNoteCard from './KeynoteCard'
+import allKeynotesList from "../../../config/KeyNotesList.yaml?raw";
+import { parse } from "yaml";
 
-export default function Section5() {
+const keynotesList = parse(allKeynotesList).keyNotesList;
+
+export default function KeynoteSection () {
+    console.log(keynotesList);
     return (
-        <div className="Section5">
-            <div className="Section5-aba">
+        <div className="KeynoteSection">
+            <div className="KeynoteSection-aba">
                 <h3>KeyNotes</h3>
             </div>
 
-            <div className='Section5-keynotescards'>
-                {keyNotesList.map((palestrante, index) => (
+            <div className='KeynoteSection-keynotescards'>
+                {keynotesList.map((palestrante, index) => (
                         <KeyNoteCard
                             img={palestrante.img}
                             nome={palestrante.nome}
