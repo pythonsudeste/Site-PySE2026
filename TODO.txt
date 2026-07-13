@@ -1,2 +1,0 @@
-Por lazy loading no site
-Adicionar swipper para os palestrantes serem exibidos logo na primeira tela
