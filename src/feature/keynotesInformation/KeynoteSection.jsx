@@ -15,6 +15,7 @@ export default function KeynoteSection () {
             <div className='KeynoteSection-keynotescards'>
                 {keynotesList.map((palestrante, index) => (
                         <KeyNoteCard
+                            key={palestrante.nome}
                             img={palestrante.img}
                             nome={palestrante.nome}
                             descricao={palestrante.descricao}

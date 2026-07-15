@@ -1,4 +1,4 @@
-.Section9 {
+.SectionSponsors {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +16,7 @@
     margin-bottom: -85px;
 }
 
-.Section9_titulo {
+.SectionSponsors_titulo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,19 +41,33 @@
     }
 }
 
-.Section9_patrocinadores {
+.SectionSponsors_patrocinadores {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
 
     width: 80vw;
     max-width: 1000px;
 
+    & h3 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    & div {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
     & img {
-        width: 250px;
-        height: 120px;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
         object-fit: contain;
     }
 }
