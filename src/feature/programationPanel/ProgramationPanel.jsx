@@ -14,6 +14,9 @@ export const ProgramationPanel = () => {
         <section className="ProgramationPanel">
             <div className="ProgramationPanel-Container">
                 <div className="ProgramationPanel-Container-datas">
+                    <a href="https://talks.python.org.br/pyse26/schedule/">
+                        Para ver a programação pelo pretalx, clique aqui!
+                    </a>
                     <h3>Selecione a data para ver a programação do dia:</h3>
                     <div className="ProgramationPanel-Container-datas-item">
                         {datas.map((data) => (

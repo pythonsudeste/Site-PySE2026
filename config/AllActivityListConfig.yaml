@@ -1,6 +1,6 @@
 ActivityList:
   - id: 1
-    local: Auditorio Tutorial
+    local: Laboratório para tutoriais
     data: 24 de julho
     hour: 08:30
     type: tutorial
@@ -17,7 +17,7 @@ ActivityList:
     type: especial
     title: Almoço
   - id: 2
-    local: Auditorio Tutorial
+    local: Laboratório para tutoriais
     data: 24 de julho
     hour: 14:30
     type: tutorial
@@ -35,8 +35,13 @@ ActivityList:
     hour: 09:00
     type: especial
     title: Coffee-break
+  - id: event1Abertura
+    data: 25 de julho
+    hour: 09:20
+    type: especial
+    title: Abertura do Evento
   - id: 3
-    local: Auditorio 1
+    local: Guido van Rossum
     data: 25 de julho
     hour: 09:35
     type: talk
@@ -50,11 +55,11 @@ ActivityList:
         biography: >-
           Haydée Svab lidera a Open Knowledge Brasil e o projeto Querido Diário. Engenheira e mestre (USP), une ciência de dados e cidadania para gerar impacto social e transparência democrática no país.
       - name: Diego Rabatone
-        avatar: "https://talks.python.org.br/media/avatars/WFSYCQ_xUTQ6zO.jpeg"
+        avatar: "https://talks.python.org.br/media/avatars/VUCEMT_IxeWCS7.webp"
         biography: >-
-          ""
+          Pai e Engenheiro, pythonista de longa data, militante de software livre e dados abertos. Trabalha com Dados desde 2009 tendo passado por Estadão, Nubank e Ministério da Justiça.
   - id: 4
-    local: Auditorio 2
+    local: Ada Lovelace
     data: 25 de julho
     hour: 09:35
     type: talk
@@ -70,7 +75,7 @@ ActivityList:
         biography: >-
           Sou Pedro Cordoeira, Físico formado pela UFF, mestre e doutorando em Modelagem Computacional pela UERJ e atuando como pesquisador e desenvolvedor de ML no Instituto de Pesquisas Eldorado
   - id: 5
-    local: Auditorio 1
+    local: Guido van Rossum
     data: 25 de julho
     hour: 10:25
     type: talk
@@ -86,7 +91,7 @@ ActivityList:
         biography: >-
           Humano babá de IA desde 2021; antes disso, desenvolvedor. Hoje busca fora da tecnologia respostas para se tornar um programador melhor, e encontrou nas humanidades uma fonte inesgotável.
   - id: 6
-    local: Auditorio 2
+    local: Ada Lovelace
     data: 25 de julho
     hour: 10:25
     type: talk
@@ -101,7 +106,7 @@ ActivityList:
         biography: >-
           Developer Advocate na Elastic com mais de 25 anos em tecnologia. Ex-Siemens, IBM e Oracle, Doutor em Ciência da Computação tendo trabalhado como professor universitário por 9 anos.
   - id: 7
-    local: Auditorio 1
+    local: Guido van Rossum
     data: 25 de julho
     hour: 11:15
     type: talk
@@ -114,7 +119,7 @@ ActivityList:
         biography: >-
           Paraense vivendo em Belo Horizonte, bióloga e mestranda em Bioinformática. Apaixonada por aventuras na natureza, música, filmes e livros. Amo compartilhar conhecimentos e engaijar em pautas sociais.
   - id: 8
-    local: Auditorio 2
+    local: Ada Lovelace
     data: 25 de julho
     hour: 11:15
     type: talk
@@ -134,7 +139,7 @@ ActivityList:
     type: especial
     title: Almoço
   - id: 10
-    local: Auditorio 1
+    local: Guido van Rossum
     data: 25 de julho
     hour: 14:00
     type: talk
@@ -147,20 +152,21 @@ ActivityList:
         biography: >-
           Educadora Popular de ensino de programção, mestre em TI e atua na área de dados desde 2018. Também é atuante na comunidade python, sendo Pyladies SP desde 2019.
   - id: 11
-    local: Auditorio 2
+    local: Ada Lovelace
     data: 25 de julho
     hour: 14:00
     type: talk
-    title: Tipos além do Any
+    title: Seu pip install custa caro? O Futuro do PyPI 
     description: >-
-      Essa apresentação tem o foco em explorar como podemos usar os tipos certos nos lugares certos. A ideia é pensarmos como tipos podem nos ajudar a termos um domínio melhor modelado.
+      O PyPI é essencial para nós, mas seu crescimento explosivo, impulsionado por milhões de arquivos binários (wheels), gera custos imensos e desafios de sustentabilidade, dependendo fortemente de patrocínios. Esta palestra mergulha nos "custos invisíveis" do pip install, explora os desafios técnicos por trás da hospedagem de pacotes em escala e discute soluções inovadoras – como sistemas de build modernos e caches distribuídos – para garantir um ecossistema Python mais robusto, eficiente e independente para todos nós no Brasil e no mundo.
+      O Python Package Index (PyPI) é o coração pulsante do nosso ecossistema, servindo bilhões de downloads diariamente. Usamos pip install sem pensar muito, mas por trás dessa simplicidade existe uma infraestrutura massiva com desafios crescentes. O PyPI hospeda hoje mais de 12 milhões de arquivos, com um crescimento exponencial impulsionado principalmente por wheels (binários pré-compilados).
     speaker:
       - name: Pablo Henrique Aguilar
         avatar: https://talks.python.org.br/media/avatars/8TYELR_AIoC10U.jpeg
         biography: >-
           Pablo Aguilar é um engenheiro de software apaixonado, especializado em desenvolvimento backend. Atualmente, como Engenheiro Sênior de Backend, colaborador de projetos de código aberto e palestrante.
   - id: 12
-    local: Auditorio 1
+    local: Guido van Rossum
     data: 25 de julho
     hour: 14:50
     type: talk
@@ -176,7 +182,7 @@ ActivityList:
         biography: >-
           Engenheiro de Software com 6 anos de experiência em Python, backend, cloud, IA e machine learning, com foco em arquitetura, performance, automação e sistemas distribuídos.
   - id: 13
-    local: Auditorio 2
+    local: Ada Lovelace
     data: 25 de julho
     hour: 14:50
     type: talk
@@ -200,13 +206,33 @@ ActivityList:
     hour: 15:35
     type: especial
     title: Coffee-break
+  - id: event3Foto
+    data: 25 de julho
+    hour: 16:05
+    type: especial
+    title: Foto oficial
+  - id: event3Palestra
+    data: 25 de julho
+    hour: 16:15
+    type: especial
+    title: Palestra Relâmpago
+  - id: event3APyB
+    data: 25 de julho
+    hour: 16:45
+    type: especial
+    title: APyB
+  - id: event3Keynote
+    data: 25 de julho
+    hour: 17:00
+    type: especial
+    title: "Keynote: Thais Viana"
   - id: event4
     data: 26 de julho
     hour: 09:30
     type: especial
     title: Coffee-break
   - id: 14
-    local: Auditorio 1
+    local: Guido van Rossum
     data: 26 de julho
     hour: 10:00
     type: talk
@@ -220,7 +246,7 @@ ActivityList:
         biography: >-
           Profissional de Segurança da Informação com atuação em Pentest, Red Team, e AppSec. Atua em identificar riscos em aplicações e infraestruturas fortalecendo segurança corporativa supply chain.
   - id: 15
-    local: Auditorio 2
+    local: Ada Lovelace
     data: 26 de julho
     hour: 10:00
     type: talk
@@ -233,7 +259,7 @@ ActivityList:
         biography: >-
           Sou Rafael Cerqueira, Psicólogo e consultor em saúde mental. Ao longo de 10 anos de carreira venho dedicando esforços na prevenção e promoção de saúde mental
   - id: 16
-    local: Auditorio 1
+    local: Guido van Rossum
     data: 26 de julho
     hour: 10:50
     type: talk
@@ -248,7 +274,7 @@ ActivityList:
         biography: >-
           Natural de Maceió, tenho 23 anos, sou estudante de engenharia eletrônica na UFPE, pesquisador CNPq do grupo Computação Biomédica e programador com experiência em Python, C e C++.
   - id: 17
-    local: Auditorio 2
+    local: Ada Lovelace
     data: 26 de julho
     hour: 10:50
     type: talk
@@ -262,13 +288,18 @@ ActivityList:
         avatar: https://talks.python.org.br/media/avatars/PUPUUA_mid4Ifc.jpg
         biography: >-
           eu quero construir produtos que resolvam problemas reais de milhares de pessoas. mão na massa e sempre aprendendo. metaleiro, leitor de scifi e na busca do melhor kibe de forno.
+  - id: event5Palestra
+    data: 26 de julho
+    hour: 11:35
+    type: especial
+    title: Palestra Relâmpago
   - id: event5
     data: 26 de julho
     hour: 12:00
     type: especial
     title: Almoço
   - id: 18
-    local: Auditorio 1
+    local: Guido van Rossum
     data: 26 de julho
     hour: 14:00
     type: talk
@@ -285,36 +316,8 @@ ActivityList:
         avatar: https://talks.python.org.br/media/avatars/Fernando_Masanori_O_Globo_NYpkEXH.jpg
         biography: >-
           Professor e entusiasta da comunidade Python. Acredita que ensinar transforma vidas — a dos alunos e a dele. Costuma tomar decisões por impulso que dão certo.
-  - id: 19
-    local: Auditorio 2
-    data: 26 de julho
-    hour: 14:00
-    type: talk
-    title: "Python além da TI: formando o servidor do futuro no governo"
-    description: >-
-      A comunidade Python costuma discutir frameworks, performance, IA, DevOps e automação. Mas há uma pergunta anterior a tudo isso:
-      Como fazer Python chegar a quem nunca se imaginou programando?
-      Nesta palestra, apresento a experiência do Trilha Dev, uma iniciativa da Secretaria de Estado de Planejamento e Gestão de Minas Gerais (SEPLAG-MG) voltada à alfabetização digital de servidores públicos que atuam em áreas administrativas e de apoio à gestão.
-      O projeto nasceu com um desafio claro: reduzir o fosso tecnológico dentro do setor público e preparar profissionais não-TI para atuar em um governo orientado por dados.
-      A jornada começa com documentação como código, Git, GitHub, Markdown e MkDocs — criando uma base conceitual sólida sobre versionamento, colaboração e organização do conhecimento. Só depois entramos em Python, não como formação de desenvolvedores, mas como ferramenta de autonomia. O resultado?
-      Servidores que:
-      deixam de depender exclusivamente de terceiros para pequenas automações;
-      passam a dialogar melhor com equipes técnicas;
-      compreendem os limites e possibilidades da tecnologia;
-      tornam-se protagonistas em projetos de inovação.
-      Mas esta palestra não é apenas sobre o setor público. Ela é um convite à comunidade Python:
-      como podemos ensinar de forma mais acessível?
-      como podemos acolher quem sente que “tecnologia não é para mim”?
-      como transformar conhecimento técnico em transformação institucional?
-      Vou compartilhar aprendizados práticos, erros, acertos e estratégias pedagógicas que podem ser replicadas em empresas, universidades, comunidades e projetos sociais.
-      Porque talvez o próximo grande impacto do Python não esteja apenas no código, mas na forma como escolhemos compartilhá-lo.
-    speaker:
-      - name: Gabriel Braico Dornas
-        avatar: ""
-        biography: >-
-          ""
   - id: 20
-    local: Auditorio 1
+    local: Guido van Rossum
     data: 26 de julho
     hour: 14:50
     type: talk
@@ -327,7 +330,7 @@ ActivityList:
         biography: >-
           Trabalho há 8 anos com backend, gosto muito de temas como arquitetura, documentação, testes e qualidade. Faço parte das PyLadies São Paulo e sou educadora popular no Núcleo de Tecnologia do MTST <3
   - id: 21
-    local: Auditorio 2
+    local: Ada Lovelace
     data: 26 de julho
     hour: 14:50
     type: talk
@@ -344,3 +347,18 @@ ActivityList:
     hour: 15:35
     type: especial
     title: Coffee-break
+  - id: event6Palestra
+    data: 26 de julho
+    hour: 16:05
+    type: especial
+    title: Palestra Relâmpago
+  - id: event6Keynote
+    data: 26 de julho
+    hour: 16:30
+    type: especial
+    title: "Keynote: Nina Da Hora"
+  - id: event6Encerramento
+    data: 26 de julho
+    hour: 17:30
+    type: especial
+    title: Encerramento
