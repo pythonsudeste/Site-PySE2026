@@ -15,7 +15,7 @@ ActivityList:
     data: 24 de julho
     hour: 12:00
     type: especial
-    title: Almoço
+    title: Intervalo
   - id: 2
     local: Laboratório para tutoriais
     data: 24 de julho
@@ -137,7 +137,7 @@ ActivityList:
     data: 25 de julho
     hour: 12:00
     type: especial
-    title: Almoço
+    title: Intervalo
   - id: 10
     local: Guido van Rossum
     data: 25 de julho
@@ -297,7 +297,7 @@ ActivityList:
     data: 26 de julho
     hour: 12:00
     type: especial
-    title: Almoço
+    title: Intervalo
   - id: 18
     local: Guido van Rossum
     data: 26 de julho
