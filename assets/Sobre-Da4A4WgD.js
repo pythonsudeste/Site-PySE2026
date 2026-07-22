@@ -1,1 +1,0 @@
-import{j as r}from"./index-Drg4ek09.js";import{S as t}from"./Section2-DDtycvOG.js";function e(){return r.jsxs(r.Fragment,{children:[r.jsx("div",{style:{marginTop:"40px"}}),r.jsx(t,{})]})}export{e as default};
