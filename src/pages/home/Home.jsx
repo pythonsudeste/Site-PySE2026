@@ -17,7 +17,7 @@ export default function Home() {
             <Section3/>
             <Section4/>
             <KeynoteSection/>
-            {/* <Section6/> SEÇÃO DOS PALESTRANTES*/}
+            <Section6/>
             <Section7/>
             <Section10/>
             <Section8/>
