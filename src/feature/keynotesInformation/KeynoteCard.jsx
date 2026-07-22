@@ -22,32 +22,34 @@ export default function KeynoteCard ({img = "https://png.pngtree.com/png-vector/
                     <p>{descricao}</p>
                 </div>
             </div>
-            <div className='keynote-segunda-linha'>
-                {githubLink !== null && (
-                    <div className='keynote-segunda-linha-item'>
-                        <a href={githubLink}>
-                            <img src={git} alt="" />
-                            {githubArroba}
-                        </a>
-                    </div>
-                )}
-                {instagramLink !== null && (
-                    <div className='keynote-segunda-linha-item'>
-                        <a href={instagramLink}>
-                            <img src={ig} alt="" />
-                            {instagramArroba}
-                        </a>
-                    </div>
-                )}
-                {linkdinLink !== null && (
-                    <div className='keynote-segunda-linha-item'>
-                        <a href={linkdinLink}>
-                            <img src={linkedin} alt="" />
-                            {linkdinArroba}
-                        </a>
-                    </div>
-                )}
-            </div>
+            {(githubLink !== null || instagramLink !== null || linkdinLink !== null) && (
+                <div className='keynote-segunda-linha'>
+                    {githubLink !== null && (
+                        <div className='keynote-segunda-linha-item'>
+                            <a href={githubLink}>
+                                <img src={git} alt="" />
+                                {githubArroba}
+                            </a>
+                        </div>
+                    )}
+                    {instagramLink !== null && (
+                        <div className='keynote-segunda-linha-item'>
+                            <a href={instagramLink}>
+                                <img src={ig} alt="" />
+                                {instagramArroba}
+                            </a>
+                        </div>
+                    )}
+                    {linkdinLink !== null && (
+                        <div className='keynote-segunda-linha-item'>
+                            <a href={linkdinLink}>
+                                <img src={linkedin} alt="" />
+                                {linkdinArroba}
+                            </a>
+                        </div>
+                    )}
+                </div>
+            )}
         </div>
     )
 }
