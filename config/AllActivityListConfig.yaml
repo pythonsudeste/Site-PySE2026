@@ -236,15 +236,14 @@ ActivityList:
     data: 26 de julho
     hour: 10:00
     type: talk
-    title: "Python Supply Chain Security: O risco invisível do PyPI"
+    title: "Os Salvadores de Tempo no Desenvolvimento"
     description: >-
-      Nesta palestra, vamos entender como as dependências se tornaram um vetor relevante de ataques reais à supply chain. Também discutiremos como o ecossistema Python está evoluindo para mitigar esses riscos, incluindo mecanismos como Trusted Publishing e outras práticas emergentes na segurança.
-      O objetivo é ajudar desenvolvedores a enxergar riscos invisíveis no dia a dia e adotar práticas mais seguras no uso de dependências.
+      Aprenda como Design Thinking e Lean Startup podem otimizar o desenvolvimento, reduzir desperdícios e direcionar a engenharia para construir soluções que resolvem problemas reais.
     speaker:
-      - name: Samara Gama
-        avatar: https://talks.python.org.br/media/avatars/937BW9_ucffr54.webp
+      - name: Daysi Mendes
+        avatar: https://talks.python.org.br/media/avatars/VUGQFF_olDLimo.webp
         biography: >-
-          Profissional de Segurança da Informação com atuação em Pentest, Red Team, e AppSec. Atua em identificar riscos em aplicações e infraestruturas fortalecendo segurança corporativa supply chain.
+          Estrategista de inovação e educadora, especialista em negócios de base tecnológica. Atua como mentora, palestrante e consultora, unindo estratégia, inovação, tecnologia e educação.
   - id: 15
     local: Ada Lovelace
     data: 26 de julho
@@ -316,6 +315,22 @@ ActivityList:
         avatar: https://talks.python.org.br/media/avatars/Fernando_Masanori_O_Globo_NYpkEXH.jpg
         biography: >-
           Professor e entusiasta da comunidade Python. Acredita que ensinar transforma vidas — a dos alunos e a dele. Costuma tomar decisões por impulso que dão certo.
+  - id: MicroPython_Mega_Possibilidades_Juliana_Karoline
+    local: Guido van Rossum
+    data: 26 de julho
+    hour: 14:00
+    type: talk
+    title: "MicroPython, Mega Possibilidades"
+    description: >-
+      Você, programador Python, tem interesse em explorar o mundo do hardware, mas não sabe por onde começar? O MicroPython pode te abrir as portas do desenvolvimento de aplicações embarcadas!
+      Além de tornar o desenvolvimento mais rápido e menos complexo, o MicroPython permite que pessoas consigam tirar do papel seus projetos de modo a reaproveitar seus conhecimentos de Python.
+      Nessa palestra iremos ver como é o processo de desenvolvimento com MicroPython, as ferramentas disponíveis nesse ecossistema e as diversas possibilidades de projetos que são possíveis de serem feitos.
+      Desde aplicações IoT, sistemas de automação residencial ou até mesmo robôs, essa pequena reimplementação do Python é poderosa e pode te surpreender.
+    speaker:
+      - name: Juliana Karoline de Sousa
+        avatar: https://talks.python.org.br/media/avatars/ZVZ3BY_XCvku0m.webp
+        biography: >-
+          Cientista da Computação (UFSCar), co-fundadora do PyLadies São Carlos e do grupy-sanca. Após 10+ anos na liderança da comunidade Python em São Carlos, fui eleita presidente da APyB em 2026/2027.
   - id: 20
     local: Guido van Rossum
     data: 26 de julho
